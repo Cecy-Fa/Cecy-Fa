@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="58" viewBox="0 0 150 58" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><defs>
+  <linearGradient id="edgebproyectos" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FF80BF"/><stop offset=".5" stop-color="#D946EF"/><stop offset="1" stop-color="#7136B5"/>
+  </linearGradient>
+  <linearGradient id="txtbproyectos" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF80BF"/><stop offset=".55" stop-color="#D946EF"/><stop offset="1" stop-color="#B44AFF"/>
+  </linearGradient>
+  <radialGradient id="panelbproyectos" cx="50%" cy="50%" r="75%">
+    <stop offset="0" stop-color="#3A1A55"/><stop offset=".6" stop-color="#22163A"/><stop offset="1" stop-color="#171323"/>
+  </radialGradient>
+  <filter id="glowbproyectos" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="halobproyectos" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs><rect x="3" y="3" width="144" height="52" rx="12" fill="url(#panelbproyectos)"/><g transform="translate(32 29.0)" filter="url(#glowbproyectos)"><path d="M-12 -8H-3L0 -5H12V10H-12Z" fill="none" stroke="#F052B5" stroke-width="2" stroke-linejoin="round"/></g><text x="54" y="35.0" font-size="15.9" font-weight="600" fill="#FFF5FB">Proyectos</text><rect x="3" y="3" width="144" height="52" rx="12" fill="none" stroke="url(#edgebproyectos)" stroke-width="2.5" filter="url(#glowbproyectos)"/></svg>

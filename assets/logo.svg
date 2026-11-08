@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="58" viewBox="0 0 150 58" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><defs>
+  <linearGradient id="edgeblogo" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FF80BF"/><stop offset=".5" stop-color="#D946EF"/><stop offset="1" stop-color="#7136B5"/>
+  </linearGradient>
+  <linearGradient id="txtblogo" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF80BF"/><stop offset=".55" stop-color="#D946EF"/><stop offset="1" stop-color="#B44AFF"/>
+  </linearGradient>
+  <radialGradient id="panelblogo" cx="50%" cy="50%" r="75%">
+    <stop offset="0" stop-color="#3A1A55"/><stop offset=".6" stop-color="#22163A"/><stop offset="1" stop-color="#171323"/>
+  </radialGradient>
+  <filter id="glowblogo" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="haloblogo" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs><rect x="3" y="3" width="144" height="52" rx="12" fill="url(#panelblogo)"/><circle cx="75.0" cy="29.0" r="24" fill="#F052B5" opacity=".35" filter="url(#haloblogo)"/><text x="75.0" y="38.1" font-size="26" font-weight="800" fill="url(#txtblogo)" text-anchor="middle" filter="url(#glowblogo)">CF</text><rect x="3" y="3" width="144" height="52" rx="12" fill="none" stroke="url(#edgeblogo)" stroke-width="2.5" filter="url(#glowblogo)"/></svg>

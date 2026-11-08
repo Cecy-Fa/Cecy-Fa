@@ -1,0 +1,69 @@
+{
+  "_ayuda": "Cambiá solo el texto que está entre comillas a la derecha de los dos puntos. Guardá (Commit changes) y en 1 minuto GitHub vuelve a dibujar las imágenes solo.",
+
+  "banner": {
+    "saludo": "HOLA, SOY",
+    "nombre": "Cecilia Farias",
+    "rol": "Desarrolladora Web",
+    "lineas": [
+      "@Cecy-Fa",
+      "Programación · Desarrollo Web · Videojuegos",
+      "UTN San Rafael · Mendoza, Argentina"
+    ],
+    "globo": [
+      "¿Modo oscuro? Se nota",
+      "que sos de las que",
+      "programan."
+    ]
+  },
+
+  "logo": "CF",
+
+  "botones": {
+    "linkedin": "LinkedIn",
+    "email": "Email",
+    "portfolio": "Portfolio",
+    "proyectos": "Proyectos"
+  },
+
+  "cuadricula": {
+    "centro": {
+      "letras": "CF",
+      "texto_arriba": "DESARROLLADORA WEB",
+      "texto_abajo": "</>"
+    },
+    "arriba_izquierda": {
+      "titulo": "Videojuegos",
+      "texto": ["Diseño y programo juegos:", "naves espaciales, combates", "y desafíos de lógica."],
+      "boton": "Jugar"
+    },
+    "arriba_derecha": {
+      "titulo": "Diseño UI/UX",
+      "texto": ["Interfaces claras, cuidadas", "y con mucha personalidad,", "pensadas para quien las usa."],
+      "boton": "Diseñar"
+    },
+    "abajo_izquierda": {
+      "titulo": "Desarrollo Web",
+      "texto": ["Creo, personalizo y optimizo", "páginas web modernas."],
+      "boton": "Crear"
+    },
+    "abajo_derecha": {
+      "titulo": "Innovación",
+      "texto": ["Exploro nuevas tecnologías", "y herramientas en constante", "aprendizaje."],
+      "boton": "Aprender"
+    }
+  },
+
+  "colores": {
+    "fondo": "#171323",
+    "morado_oscuro": "#542783",
+    "violeta_profundo": "#7136B5",
+    "purpura": "#9635D6",
+    "violeta_brillante": "#B44AFF",
+    "magenta": "#D946EF",
+    "fucsia": "#F052B5",
+    "rosa_vibrante": "#FF80BF",
+    "rosa_pastel": "#FFB3D9",
+    "blanco": "#FFF5FB"
+  }
+}

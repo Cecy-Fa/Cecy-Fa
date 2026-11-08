@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="830" height="340" viewBox="0 0 830 340" font-family="'Segoe UI', 'Helvetica Neue', Helvetica, Arial, sans-serif"><defs>
+  <linearGradient id="edgehero" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#FF80BF"/><stop offset=".5" stop-color="#D946EF"/><stop offset="1" stop-color="#7136B5"/>
+  </linearGradient>
+  <linearGradient id="txthero" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FF80BF"/><stop offset=".55" stop-color="#D946EF"/><stop offset="1" stop-color="#B44AFF"/>
+  </linearGradient>
+  <radialGradient id="panelhero" cx="50%" cy="50%" r="75%">
+    <stop offset="0" stop-color="#3A1A55"/><stop offset=".6" stop-color="#22163A"/><stop offset="1" stop-color="#171323"/>
+  </radialGradient>
+  <filter id="glowhero" x="-40%" y="-40%" width="180%" height="180%">
+    <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="halohero" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="18"/></filter>
+</defs><rect x="3" y="3" width="824" height="334" rx="18" fill="url(#panelhero)"/>
+<circle cx="690" cy="200" r="130" fill="#D946EF" opacity=".22" filter="url(#halohero)"/>
+<g filter="url(#glowhero)">
+  <rect x="600" y="92" width="190" height="160" rx="12" fill="#171323" stroke="url(#edgehero)" stroke-width="3"/>
+  <path d="M600 120 H790" stroke="#D946EF" stroke-width="2"/>
+  <circle cx="616" cy="106" r="4" fill="#FF80BF"/><circle cx="630" cy="106" r="4" fill="#D946EF"/><circle cx="644" cy="106" r="4" fill="#B44AFF"/>
+</g>
+<rect x="618" y="140" width="70" height="8" rx="4" fill="#F052B5"/><rect x="634" y="160" width="110" height="8" rx="4" fill="#D946EF"/><rect x="634" y="180" width="80" height="8" rx="4" fill="#B44AFF"/><rect x="650" y="200" width="90" height="8" rx="4" fill="#FF80BF"/><rect x="634" y="220" width="60" height="8" rx="4" fill="#9635D6"/><rect x="618" y="240" width="40" height="8" rx="4" fill="#F052B5"/>
+<rect x="660" y="260" width="8" height="18" fill="#F052B5"><animate attributeName="opacity" values="1;0;1" dur="1.1s" repeatCount="indefinite"/></rect>
+<g transform="translate(615 268) scale(.85) rotate(-12)">
+  <path d="M-50 -10 Q-50 -30 -30 -30 H30 Q50 -30 50 -10 L58 25 Q62 42 46 42 Q36 42 28 28 H-28 Q-36 42 -46 42 Q-62 42 -58 25 Z" fill="#171323"/>
+  <g filter="url(#glowhero)"><path d="M-50 -10 Q-50 -30 -30 -30 H30 Q50 -30 50 -10 L58 25 Q62 42 46 42 Q36 42 28 28 H-28 Q-36 42 -46 42 Q-62 42 -58 25 Z" fill="none" stroke="#F052B5" stroke-width="4" stroke-linejoin="round"/><path d="M-34 -2 H-18 M-26 -10 V6" stroke="#FFB3D9" stroke-width="5" stroke-linecap="round"/><circle cx="26" cy="-12" r="4.5" fill="#FFB3D9"/><circle cx="36" cy="-2" r="4.5" fill="#FFB3D9"/><circle cx="26" cy="8" r="4.5" fill="#FFB3D9"/><circle cx="16" cy="-2" r="4.5" fill="#FFB3D9"/></g>
+</g>
+<g transform="translate(780 70)" fill="#FFB3D9"><path d="M0 -10 L3 -3 L10 0 L3 3 L0 10 L-3 3 L-10 0 L-3 -3Z"><animate attributeName="opacity" values="1;.2;1" dur="2.4s" repeatCount="indefinite"/></path></g>
+<g transform="translate(578 120) scale(.6)" fill="#B44AFF"><path d="M0 -10 L3 -3 L10 0 L3 3 L0 10 L-3 3 L-10 0 L-3 -3Z"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></path></g>
+<g transform="translate(345 38)"><rect width="225" height="91" rx="22" fill="#171323" stroke="#F052B5" stroke-width="2.5" filter="url(#glowhero)"/><path d="M170 90 L214 117 L194 90" fill="#171323" stroke="#F052B5" stroke-width="2.5" stroke-linejoin="round"/><rect x="168" y="85" width="28" height="7" fill="#171323"/><text x="112" y="30" font-size="15" fill="#FFF5FB" text-anchor="middle" font-weight="400"><tspan x="112" dy="0">¿Modo oscuro? Se nota</tspan><tspan x="112" dy="19.5">que sos de las que</tspan><tspan x="112" dy="19.5">programan.</tspan></text></g>
+<text x="42" y="70" font-size="15" letter-spacing="4" font-weight="700" fill="#B44AFF">HOLA, SOY</text><text x="38" y="133" font-size="64" font-weight="800" fill="url(#txthero)" filter="url(#glowhero)">Cecilia</text><text x="38" y="190" font-size="64" font-weight="800" fill="url(#txthero)" filter="url(#glowhero)">Farias</text><text x="42" y="230" font-size="21" font-weight="700" fill="#FFF5FB">Desarrolladora Web</text><rect x="42" y="246" width="70" height="4" rx="2" fill="url(#txthero)"/><text x="42" y="280" font-size="14.3" fill="#FFB3D9" text-anchor="start" font-weight="400"><tspan x="42" dy="0">Programación · Desarrollo Web · Videojuegos</tspan><tspan x="42" dy="22.9">UTN San Rafael · Mendoza, Argentina</tspan></text><rect x="3" y="3" width="824" height="334" rx="18" fill="none" stroke="url(#edgehero)" stroke-width="2.5" filter="url(#glowhero)"/></svg>
