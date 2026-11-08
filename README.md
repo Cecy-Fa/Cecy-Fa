@@ -190,7 +190,17 @@ Primer sistema de gestión del equipo, desarrollado en Java.<br/>
 </p>
 
 ---
+### Actividad
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Cecy-Fa/Cecy-Fa/output/snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Cecy-Fa/Cecy-Fa/output/snake-light.svg" />
+    <img src="https://raw.githubusercontent.com/Cecy-Fa/Cecy-Fa/output/snake-dark.svg" width="100%" alt="Viborita recorriendo mis contribuciones" />
+  </picture>
+</p>
+
+---
 ### Estadísticas
 
 <p align="center">
