@@ -1,0 +1,32 @@
+# Actualiza assets/stats.svg con tus estadísticas de GitHub, todos los días.
+name: Actualizar estadísticas
+
+on:
+  schedule:
+    - cron: "17 9 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: [".github/scripts/stats.py", ".github/workflows/stats.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generar estadísticas
+        run: python3 .github/scripts/stats.py
+        env:
+          USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/stats.svg
+          git diff --staged --quiet || (git commit -m "Actualizar estadísticas" && git pull --rebase && git push)
