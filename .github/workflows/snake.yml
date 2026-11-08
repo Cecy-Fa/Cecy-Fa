@@ -1,0 +1,29 @@
+name: Generar viborita
+
+on:
+  schedule:
+    - cron: "23 */12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dibujar la viborita
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?color_snake=#F052B5&color_dots=#2A1F3D,#542783,#7136B5,#D946EF,#FF80BF&color_dot_border=#171323
+            dist/snake-light.svg?color_snake=#D946EF&color_dots=#F3E8F7,#FFB3D9,#FF80BF,#D946EF,#7136B5&color_dot_border=#FFFFFF
+
+      - name: Publicar en la rama output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
