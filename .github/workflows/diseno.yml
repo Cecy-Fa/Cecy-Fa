@@ -1,0 +1,35 @@
+# Vuelve a dibujar las imágenes del perfil cada vez que modificás perfil.json.
+name: Actualizar diseño
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["perfil.json", ".github/scripts/diseno.py", ".github/workflows/diseno.yml"]
+
+permissions:
+  contents: write
+
+jobs:
+  diseno:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Dibujar imágenes
+        run: |
+          python3 .github/scripts/diseno.py
+          python3 .github/scripts/stats.py || true
+        env:
+          USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git diff --staged --quiet && exit 0
+          git commit -m "Actualizar diseño del perfil"
+          git pull --rebase
+          git push
