@@ -3,7 +3,7 @@
   <a href="https://www.linkedin.com/in/[TU-LINKEDIN]"><img src="assets/btn-linkedin.svg" width="150" alt="LinkedIn" /></a>
   <a href="mailto:cecyaf25@gmail.com"><img src="assets/btn-email.svg" width="150" alt="Email" /></a>
   <a href="https://github.com/Cecy-Fa"><img src="assets/logo.svg" width="150" alt="Cecilia Farias" /></a>
-  <a href="https://[TU-PORTFOLIO]"><img src="assets/btn-portfolio.svg" width="150" alt="Portfolio" /></a>
+  <a href="https://portafolio-cecy-25.netlify.app/"><img src="assets/btn-portfolio.svg" width="150" alt="Portfolio" /></a>
   <a href="#trabajos-realizados"><img src="assets/btn-proyectos.svg" width="150" alt="Proyectos" /></a>
 </p>
 
